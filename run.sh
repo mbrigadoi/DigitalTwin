@@ -15,5 +15,4 @@ gnome-terminal --tab -- bash -c "source venv/bin/activate; python modules/produc
 gnome-terminal --tab -- bash -c "source venv/bin/activate; python modules/consumers/consumer.py; exec bash"
 
 # Run kafka-console-consumer
-sleep 1m
 docker exec -it broker kafka-console-consumer --bootstrap-server localhost:9092 --topic flight_weather --from-beginning

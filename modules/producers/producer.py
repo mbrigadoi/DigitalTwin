@@ -8,16 +8,14 @@ import sys
 from confluent_kafka import Producer
 
 logging.basicConfig(
-  format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
-  datefmt='%Y-%m-%d %H:%M:%S',
-  level=logging.INFO,
-  handlers=[
-      logging.FileHandler("producers.log"),
-      logging.StreamHandler(sys.stdout)
-  ]
+    format="%(asctime)s %(name)-12s %(levelname)-8s %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+    level=logging.INFO,
+    handlers=[logging.FileHandler("producers.log"), logging.StreamHandler(sys.stdout)],
 )
 
 logger = logging.getLogger()
+
 
 class ProducerCallback:
     def __init__(self, topic, record, log_success=False):
@@ -52,21 +50,13 @@ class GenericProducer:
     def produce(self):
         logger.info(f"Starting {self.topic} producer")
 
-        i = 1
         while True:
-            is_tenth = i % 10 == 0
-
             data = random.choice(self.data)
-
             self.producer.produce(
                 topic=self.topic,
                 value=json.dumps(data),
-                on_delivery=ProducerCallback(self.topic, data, log_success=is_tenth),
+                on_delivery=ProducerCallback(self.topic, data, log_success=True),
             )
+            self.producer.flush()
 
-            if is_tenth:
-                self.producer.poll(1)
-                time.sleep(5)
-                i = 0
-
-            i += 1
+            time.sleep(5)
