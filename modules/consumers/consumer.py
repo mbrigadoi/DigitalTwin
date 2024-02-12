@@ -117,7 +117,7 @@ def main():
     """
     sinkTable = tblEnv.sql_query(query)
 
-    print("\Flight_Weather Schema")
+    print("\nFlight_Weather Schema")
     sinkTable.print_schema()
 
     # Create the table combining the flights and weather data

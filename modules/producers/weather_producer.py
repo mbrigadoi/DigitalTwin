@@ -73,11 +73,11 @@ WHEATHER_MOCK = [
 ]
 
 
-class FlightProducer(GenericProducer):
+class WeatherProducer(GenericProducer):
     def __init__(self, server, topic, data):
         super().__init__(server, topic, data)
 
 
 if __name__ == "__main__":
-    weatherProducer = FlightProducer(SERVER, TOPIC, WHEATHER_MOCK)
+    weatherProducer = WeatherProducer(SERVER, TOPIC, WHEATHER_MOCK)
     weatherProducer.produce()
