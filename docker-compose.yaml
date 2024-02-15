@@ -29,6 +29,7 @@ services:
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
       KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+
   jobmanager:
     image: flink
     hostname: jobmanager
@@ -52,3 +53,10 @@ services:
         FLINK_PROPERTIES=
         jobmanager.rpc.address: jobmanager
         taskmanager.numberOfTaskSlots: 2
+    
+  integration:
+    build: 
+      context: ./integration
+      dockerfile: Dockerfile
+    image: integration
+    container_name: integration
