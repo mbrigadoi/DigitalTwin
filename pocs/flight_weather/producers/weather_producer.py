@@ -1,5 +1,10 @@
-from producer import GenericProducer
+from pathlib import Path
+import sys
 
+path_root = Path(__file__).parents[2]
+sys.path.append(str(path_root))
+
+from generic.producer import GenericProducer
 
 SERVER = "localhost:9092"
 TOPIC = "weather"
@@ -72,12 +77,5 @@ WHEATHER_MOCK = [
     },
 ]
 
-
-class WeatherProducer(GenericProducer):
-    def __init__(self, server, topic, data):
-        super().__init__(server, topic, data)
-
-
-if __name__ == "__main__":
-    weatherProducer = WeatherProducer(SERVER, TOPIC, WHEATHER_MOCK)
-    weatherProducer.produce()
+weatherProducer = GenericProducer(SERVER, TOPIC, WHEATHER_MOCK)
+weatherProducer.produce()

@@ -1,7 +1,6 @@
 import atexit
 import json
 import logging
-import random
 import time
 import sys
 
@@ -18,7 +17,7 @@ logger = logging.getLogger()
 
 
 class ProducerCallback:
-    def __init__(self, topic, record, log_success=False):
+    def __init__(self, record, log_success=False):
         self.record = record
         self.log_success = log_success
 
@@ -50,12 +49,11 @@ class GenericProducer:
     def produce(self):
         logger.info(f"Starting {self.topic} producer")
 
-        while True:
-            data = random.choice(self.data)
+        for data in self.data:
             self.producer.produce(
                 topic=self.topic,
                 value=json.dumps(data),
-                on_delivery=ProducerCallback(self.topic, data, log_success=True),
+                on_delivery=ProducerCallback(data, log_success=True),
             )
             self.producer.flush()
 

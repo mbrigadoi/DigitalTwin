@@ -1,5 +1,10 @@
-from producer import GenericProducer
+from pathlib import Path
+import sys
 
+path_root = Path(__file__).parents[2]
+sys.path.append(str(path_root))
+
+from generic.producer import GenericProducer
 
 SERVER = "localhost:9092"
 TOPIC = "flights"
@@ -97,12 +102,5 @@ FLIGHTS_MOCK = [
     },
 ]
 
-
-class FlightProducer(GenericProducer):
-    def __init__(self, server, topic, data):
-        super().__init__(server, topic, data)
-
-
-if __name__ == "__main__":
-    flightProducer = FlightProducer(SERVER, TOPIC, FLIGHTS_MOCK)
-    flightProducer.produce()
+flightProducer = GenericProducer(server=SERVER, topic=TOPIC, data=FLIGHTS_MOCK)
+flightProducer.produce()
