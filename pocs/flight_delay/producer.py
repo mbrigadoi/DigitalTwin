@@ -1,8 +1,13 @@
 import json
+import sys
+from pathlib import Path
 
 from FlightRadar24 import FlightRadar24API
 
-from producer import Producer
+path_root = Path(__file__).parents[1]
+sys.path.append(str(path_root))
+
+from generic.producer import GenericProducer
 
 SERVER = "localhost:9092"
 TOPIC = "weather"
@@ -48,5 +53,5 @@ with open("airport.json", "w") as file:
 with open("schedule.json", "w") as file:
     json.dump(schedule, file, indent=4)
 
-scheduleProducer = Producer(SERVER, TOPIC, schedule)
+scheduleProducer = GenericProducer(SERVER, TOPIC, schedule)
 scheduleProducer.produce()
