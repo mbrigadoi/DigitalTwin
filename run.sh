@@ -28,4 +28,4 @@ gnome-terminal --tab -- bash -c "source venv/bin/activate; python pocs/flight_de
 gnome-terminal --tab -- bash -c "source venv/bin/activate; python pocs/flight_delay/consumer.py; exec bash"
 
 # Run kafka-console-consumer
-podman exec -it broker kafka-console-consumer --bootstrap-server localhost:9092 --topic flight_weather --from-beginning
+podman exec -it broker kafka-console-consumer --bootstrap-server localhost:9092 --topic delays --from-beginning

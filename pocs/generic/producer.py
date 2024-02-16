@@ -57,4 +57,4 @@ class GenericProducer:
             )
             self.producer.flush()
 
-            time.sleep(5)
+            time.sleep(1)

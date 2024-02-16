@@ -10,7 +10,7 @@ sys.path.append(str(path_root))
 from generic.producer import GenericProducer
 
 SERVER = "localhost:9092"
-TOPIC = "weather"
+TOPIC = "flights"
 
 # Create an instance of FlightRadar24API
 fr = FlightRadar24API()
@@ -46,12 +46,6 @@ for flight in airportData["airport"]["pluginData"]["schedule"]["arrivals"]["data
             ),
         }
     )
-
-with open("airport.json", "w") as file:
-    json.dump(airportData, file, indent=4)
-
-with open("schedule.json", "w") as file:
-    json.dump(schedule, file, indent=4)
 
 scheduleProducer = GenericProducer(SERVER, TOPIC, schedule)
 scheduleProducer.produce()

@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 from pyflink.datastream import StreamExecutionEnvironment
 from pyflink.table import StreamTableEnvironment, EnvironmentSettings
@@ -21,7 +22,7 @@ def main():
 
     # Add kafka connector dependency
     kafkaConn = os.path.join(
-        os.path.abspath(os.path.dirname(__file__)),
+        os.path.abspath(f"{Path(__file__).parents[2]}/generic"),
         "flink-sql-connector-kafka-3.0.2-1.18.jar",
     )
 
