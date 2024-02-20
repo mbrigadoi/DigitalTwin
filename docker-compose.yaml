@@ -38,7 +38,7 @@ services:
       - "8081:8081"
     command: jobmanager
     environment:
-      FLINK_PROPERTIES: 'jobmanager.rpc.address: jobmanager'       
+      FLINK_PROPERTIES: 'jobmanager.rpc.address: jobmanager'
 
   taskmanager:
     image: flink
@@ -53,10 +53,3 @@ services:
         FLINK_PROPERTIES=
         jobmanager.rpc.address: jobmanager
         taskmanager.numberOfTaskSlots: 2
-    
-  integration:
-    build: 
-      context: ./integration
-      dockerfile: Dockerfile
-    image: integration
-    container_name: integration

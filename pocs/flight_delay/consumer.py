@@ -38,8 +38,28 @@ def main():
 
     # Define the schema for your data
     schema = RowTypeInfo(
-        [Types.STRING(), Types.STRING(), Types.STRING(), Types.STRING(), Types.STRING(), Types.STRING(), Types.STRING(), Types.LONG(), Types.STRING()],
-        ["flight", "aircraft", "airline", "origin", "status", "scheduledDepartureGMT", "scheduledArrivalGMT", "arrivalGMT", "Delay"]
+        [
+            Types.STRING(),
+            Types.STRING(),
+            Types.STRING(),
+            Types.STRING(),
+            Types.STRING(),
+            Types.STRING(),
+            Types.STRING(),
+            Types.LONG(),
+            Types.STRING(),
+        ],
+        [
+            "flight",
+            "aircraft",
+            "airline",
+            "origin",
+            "status",
+            "scheduledDepartureGMT",
+            "scheduledArrivalGMT",
+            "arrivalGMT",
+            "Delay",
+        ],
     )
 
     # Read the data from Kafka
@@ -50,26 +70,44 @@ def main():
 
     # Check if the flight wasn't canceled and the difference of scheduledArrivalGMT and arrivalGMT is more than 10 minutes
     result = stream.filter(
-        lambda row: row["arrivalGMT"] == -1 or row['arrivalGMT'] - row['scheduledArrivalGMT'] > 600
+        lambda row: row["arrivalGMT"] == -1
+        or row["arrivalGMT"] - row["scheduledArrivalGMT"] > 600
     )
 
     # Convert the Unix timestamps to datetime strings
-    result = result.map(lambda row: {
-        "flight": row['flight'],
-        "aircraft": row['aircraft'],
-        "airline": row['airline'],
-        "origin": row['origin'],
-        "status": row['status'],
-        "scheduledDepartureGMT": datetime.utcfromtimestamp(row['scheduledDepartureGMT']).strftime('%Y-%m-%d %H:%M:%S'),
-        "scheduledArrivalGMT": datetime.utcfromtimestamp(row['scheduledArrivalGMT']).strftime('%Y-%m-%d %H:%M:%S'),
-        "arrivalGMT": datetime.utcfromtimestamp(row['arrivalGMT']).strftime('%Y-%m-%d %H:%M:%S') if row['arrivalGMT'] != -1 else "CANCELED",
-        "Delay": datetime.utcfromtimestamp(row['arrivalGMT'] - row['scheduledArrivalGMT']).strftime('%H:%M:%S') if row['arrivalGMT'] != -1 else "CANCELED"
-    }, output_type=schema)
+    result = result.map(
+        lambda row: {
+            "flight": row["flight"],
+            "aircraft": row["aircraft"],
+            "airline": row["airline"],
+            "origin": row["origin"],
+            "status": row["status"],
+            "scheduledDepartureGMT": datetime.utcfromtimestamp(
+                row["scheduledDepartureGMT"]
+            ).strftime("%Y-%m-%d %H:%M:%S"),
+            "scheduledArrivalGMT": datetime.utcfromtimestamp(
+                row["scheduledArrivalGMT"]
+            ).strftime("%Y-%m-%d %H:%M:%S"),
+            "arrivalGMT": (
+                datetime.utcfromtimestamp(row["arrivalGMT"]).strftime(
+                    "%Y-%m-%d %H:%M:%S"
+                )
+                if row["arrivalGMT"] != -1
+                else "CANCELED"
+            ),
+            "Delay": (
+                datetime.utcfromtimestamp(
+                    row["arrivalGMT"] - row["scheduledArrivalGMT"]
+                ).strftime("%H:%M:%S")
+                if row["arrivalGMT"] != -1
+                else "CANCELED"
+            ),
+        },
+        output_type=schema,
+    )
 
     # Serialize the data to JSON
-    result = result.map(
-        lambda row: json.dumps(row), output_type=Types.STRING()
-    )
+    result = result.map(lambda row: json.dumps(row), output_type=Types.STRING())
 
     # Write the results to Kafka
     result.add_sink(producer)
