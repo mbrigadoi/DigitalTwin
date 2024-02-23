@@ -73,3 +73,17 @@ elif [ "$1" == "fd" ]; then
     # Run kafka-console-consumer
     $CMD exec -it broker kafka-console-consumer --bootstrap-server localhost:9092 --topic delays --from-beginning
 fi
+elif [ "$1" == "fp" ]; then
+    # Flight Delay
+    echo "Running Flight Persistence project"
+    # Create topics
+    $CMD exec -it broker kafka-topics --create --bootstrap-server localhost:9092 --topic flights
+    $CMD exec -it broker kafka-topics --create --bootstrap-server localhost:9092 --topic delays
+
+    # Run producer and consumer
+    gnome-terminal --tab -- bash -c "source venv/bin/activate; python pocs/flight_persistence/producer.py; exec bash"
+    gnome-terminal --tab -- bash -c "source venv/bin/activate; python pocs/flight_persistence/consumer.py; exec bash"
+
+    # Run kafka-console-consumer
+    $CMD exec -it broker kafka-console-consumer --bootstrap-server localhost:9092 --topic delays --from-beginning
+fi

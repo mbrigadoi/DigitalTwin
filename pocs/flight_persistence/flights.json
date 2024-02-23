@@ -1,0 +1,502 @@
+[
+    {
+        "flight": "AF6247",
+        "aircraft": "Boeing 737-800",
+        "airline": "United Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Late",
+        "scheduledDepartureGMT": 1708698443,
+        "scheduledArrivalGMT": 1708705609,
+        "arrivalGMT": 1708706377
+    },
+    {
+        "flight": "AF4505",
+        "aircraft": "Airbus A321",
+        "airline": "Lufthansa",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Late",
+        "scheduledDepartureGMT": 1708700722,
+        "scheduledArrivalGMT": 1708704959,
+        "arrivalGMT": 1708705635
+    },
+    {
+        "flight": "AF4602",
+        "aircraft": "Airbus A350-900",
+        "airline": "Lufthansa",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Late",
+        "scheduledDepartureGMT": 1708694104,
+        "scheduledArrivalGMT": 1708703949,
+        "arrivalGMT": 1708706793
+    },
+    {
+        "flight": "AF8491",
+        "aircraft": "Airbus A350-900",
+        "airline": "United Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Canceled",
+        "scheduledDepartureGMT": 1708694112,
+        "scheduledArrivalGMT": 1708704532,
+        "arrivalGMT": -1
+    },
+    {
+        "flight": "AF3790",
+        "aircraft": "Airbus A380-800",
+        "airline": "United Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Canceled",
+        "scheduledDepartureGMT": 1708696276,
+        "scheduledArrivalGMT": 1708705668,
+        "arrivalGMT": -1
+    },
+    {
+        "flight": "AF1288",
+        "aircraft": "Boeing 737-800",
+        "airline": "Air France",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Canceled",
+        "scheduledDepartureGMT": 1708698329,
+        "scheduledArrivalGMT": 1708706152,
+        "arrivalGMT": -1
+    },
+    {
+        "flight": "AF4028",
+        "aircraft": "Airbus A320-214",
+        "airline": "Qatar Airways",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Late",
+        "scheduledDepartureGMT": 1708700111,
+        "scheduledArrivalGMT": 1708705103,
+        "arrivalGMT": 1708707467
+    },
+    {
+        "flight": "AF4864",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "American Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Canceled",
+        "scheduledDepartureGMT": 1708695425,
+        "scheduledArrivalGMT": 1708706912,
+        "arrivalGMT": -1
+    },
+    {
+        "flight": "AF6244",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "Delta Air Lines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Late",
+        "scheduledDepartureGMT": 1708700956,
+        "scheduledArrivalGMT": 1708706568,
+        "arrivalGMT": 1708707284
+    },
+    {
+        "flight": "AF9027",
+        "aircraft": "Boeing 777-300ER",
+        "airline": "American Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Canceled",
+        "scheduledDepartureGMT": 1708695018,
+        "scheduledArrivalGMT": 1708705652,
+        "arrivalGMT": -1
+    },
+    {
+        "flight": "AF4641",
+        "aircraft": "Boeing 737-800",
+        "airline": "United Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708699760,
+        "scheduledArrivalGMT": 1708704078,
+        "arrivalGMT": 1708704078
+    },
+    {
+        "flight": "AF8012",
+        "aircraft": "Boeing 777-300ER",
+        "airline": "Air France",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708700259,
+        "scheduledArrivalGMT": 1708706671,
+        "arrivalGMT": 1708706671
+    },
+    {
+        "flight": "AF1317",
+        "aircraft": "Airbus A320-214",
+        "airline": "Air France",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708695583,
+        "scheduledArrivalGMT": 1708702553,
+        "arrivalGMT": 1708702553
+    },
+    {
+        "flight": "AF8023",
+        "aircraft": "Boeing 787-9",
+        "airline": "Qatar Airways",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708695085,
+        "scheduledArrivalGMT": 1708701497,
+        "arrivalGMT": 1708701497
+    },
+    {
+        "flight": "AF3700",
+        "aircraft": "Airbus A380-800",
+        "airline": "Delta Air Lines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708694573,
+        "scheduledArrivalGMT": 1708698714,
+        "arrivalGMT": 1708698714
+    },
+    {
+        "flight": "AF1096",
+        "aircraft": "Airbus A350-900",
+        "airline": "Qatar Airways",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708697309,
+        "scheduledArrivalGMT": 1708703517,
+        "arrivalGMT": 1708703517
+    },
+    {
+        "flight": "AF5552",
+        "aircraft": "Boeing 787-9",
+        "airline": "British Airways",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708697050,
+        "scheduledArrivalGMT": 1708701503,
+        "arrivalGMT": 1708701503
+    },
+    {
+        "flight": "AF8339",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "Qatar Airways",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708694200,
+        "scheduledArrivalGMT": 1708701363,
+        "arrivalGMT": 1708701363
+    },
+    {
+        "flight": "AF4593",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "British Airways",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Late",
+        "scheduledDepartureGMT": 1708696268,
+        "scheduledArrivalGMT": 1708701858,
+        "arrivalGMT": 1708704096
+    },
+    {
+        "flight": "AF1935",
+        "aircraft": "Boeing 777-300ER",
+        "airline": "Emirates",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708699413,
+        "scheduledArrivalGMT": 1708703574,
+        "arrivalGMT": 1708703574
+    },
+    {
+        "flight": "AF7574",
+        "aircraft": "Airbus A350-900",
+        "airline": "British Airways",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708700101,
+        "scheduledArrivalGMT": 1708704195,
+        "arrivalGMT": 1708704195
+    },
+    {
+        "flight": "AF8092",
+        "aircraft": "Airbus A350-900",
+        "airline": "Qatar Airways",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708700385,
+        "scheduledArrivalGMT": 1708706736,
+        "arrivalGMT": 1708706736
+    },
+    {
+        "flight": "AF3468",
+        "aircraft": "Boeing 737-800",
+        "airline": "Air France",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708694644,
+        "scheduledArrivalGMT": 1708700898,
+        "arrivalGMT": 1708700898
+    },
+    {
+        "flight": "AF1832",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "American Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Late",
+        "scheduledDepartureGMT": 1708695391,
+        "scheduledArrivalGMT": 1708701593,
+        "arrivalGMT": 1708703755
+    },
+    {
+        "flight": "AF3357",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "Air France",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708697805,
+        "scheduledArrivalGMT": 1708702264,
+        "arrivalGMT": 1708702264
+    },
+    {
+        "flight": "AF6101",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "United Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708696387,
+        "scheduledArrivalGMT": 1708701582,
+        "arrivalGMT": 1708701582
+    },
+    {
+        "flight": "AF3399",
+        "aircraft": "Airbus A320-214",
+        "airline": "Lufthansa",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708696317,
+        "scheduledArrivalGMT": 1708701231,
+        "arrivalGMT": 1708701231
+    },
+    {
+        "flight": "AF1864",
+        "aircraft": "Airbus A321",
+        "airline": "Delta Air Lines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708698762,
+        "scheduledArrivalGMT": 1708705950,
+        "arrivalGMT": 1708705950
+    },
+    {
+        "flight": "AF6752",
+        "aircraft": "Airbus A380-800",
+        "airline": "Delta Air Lines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708699702,
+        "scheduledArrivalGMT": 1708706562,
+        "arrivalGMT": 1708706562
+    },
+    {
+        "flight": "AF5708",
+        "aircraft": "Boeing 777-300ER",
+        "airline": "Delta Air Lines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708695193,
+        "scheduledArrivalGMT": 1708701399,
+        "arrivalGMT": 1708701399
+    },
+    {
+        "flight": "AF4289",
+        "aircraft": "Airbus A320-214",
+        "airline": "Emirates",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708694297,
+        "scheduledArrivalGMT": 1708697947,
+        "arrivalGMT": 1708697947
+    },
+    {
+        "flight": "AF9569",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "Air France",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708695951,
+        "scheduledArrivalGMT": 1708702827,
+        "arrivalGMT": 1708702827
+    },
+    {
+        "flight": "AF3949",
+        "aircraft": "Boeing 777-300ER",
+        "airline": "United Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708698129,
+        "scheduledArrivalGMT": 1708704735,
+        "arrivalGMT": 1708704735
+    },
+    {
+        "flight": "AF8856",
+        "aircraft": "Airbus A321",
+        "airline": "Emirates",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708697501,
+        "scheduledArrivalGMT": 1708702355,
+        "arrivalGMT": 1708702355
+    },
+    {
+        "flight": "AF1194",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "American Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708700195,
+        "scheduledArrivalGMT": 1708705049,
+        "arrivalGMT": 1708705049
+    },
+    {
+        "flight": "AF2835",
+        "aircraft": "Airbus A380-800",
+        "airline": "United Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708696142,
+        "scheduledArrivalGMT": 1708701235,
+        "arrivalGMT": 1708701235
+    },
+    {
+        "flight": "AF9312",
+        "aircraft": "Boeing 787-9",
+        "airline": "Lufthansa",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708700935,
+        "scheduledArrivalGMT": 1708705408,
+        "arrivalGMT": 1708705408
+    },
+    {
+        "flight": "AF3768",
+        "aircraft": "Boeing 737-800",
+        "airline": "Emirates",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708698343,
+        "scheduledArrivalGMT": 1708702263,
+        "arrivalGMT": 1708702263
+    },
+    {
+        "flight": "AF8793",
+        "aircraft": "Airbus A321",
+        "airline": "American Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708699131,
+        "scheduledArrivalGMT": 1708704114,
+        "arrivalGMT": 1708704114
+    },
+    {
+        "flight": "AF4222",
+        "aircraft": "Airbus A321",
+        "airline": "Delta Air Lines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Late",
+        "scheduledDepartureGMT": 1708699475,
+        "scheduledArrivalGMT": 1708705397,
+        "arrivalGMT": 1708705880
+    },
+    {
+        "flight": "AF9850",
+        "aircraft": "Airbus A350-900",
+        "airline": "Emirates",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708699214,
+        "scheduledArrivalGMT": 1708705546,
+        "arrivalGMT": 1708705546
+    },
+    {
+        "flight": "AF5737",
+        "aircraft": "Boeing 737-800",
+        "airline": "Delta Air Lines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708696775,
+        "scheduledArrivalGMT": 1708703713,
+        "arrivalGMT": 1708703713
+    },
+    {
+        "flight": "AF9395",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "British Airways",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708700687,
+        "scheduledArrivalGMT": 1708705553,
+        "arrivalGMT": 1708705553
+    },
+    {
+        "flight": "AF8803",
+        "aircraft": "Boeing 737-800",
+        "airline": "Delta Air Lines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708698206,
+        "scheduledArrivalGMT": 1708703576,
+        "arrivalGMT": 1708703576
+    },
+    {
+        "flight": "AF6955",
+        "aircraft": "Boeing 737-800",
+        "airline": "United Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708699873,
+        "scheduledArrivalGMT": 1708705752,
+        "arrivalGMT": 1708705752
+    },
+    {
+        "flight": "AF6774",
+        "aircraft": "Boeing 787-9",
+        "airline": "American Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708699474,
+        "scheduledArrivalGMT": 1708703764,
+        "arrivalGMT": 1708703764
+    },
+    {
+        "flight": "AF5038",
+        "aircraft": "Boeing 737-800",
+        "airline": "Delta Air Lines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Late",
+        "scheduledDepartureGMT": 1708699070,
+        "scheduledArrivalGMT": 1708702923,
+        "arrivalGMT": 1708704040
+    },
+    {
+        "flight": "AF8204",
+        "aircraft": "Airbus A321",
+        "airline": "United Airlines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708696931,
+        "scheduledArrivalGMT": 1708702591,
+        "arrivalGMT": 1708702591
+    },
+    {
+        "flight": "AF9937",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "Emirates",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "On Time",
+        "scheduledDepartureGMT": 1708699583,
+        "scheduledArrivalGMT": 1708705126,
+        "arrivalGMT": 1708705126
+    },
+    {
+        "flight": "AF7196",
+        "aircraft": "Boeing 777-300ER",
+        "airline": "Delta Air Lines",
+        "origin": "Algiers Houari Boumediene Airport",
+        "status": "Late",
+        "scheduledDepartureGMT": 1708696202,
+        "scheduledArrivalGMT": 1708700445,
+        "arrivalGMT": 1708702527
+    }
+]
