@@ -1,502 +1,502 @@
 [
     {
-        "flight": "AF6247",
-        "aircraft": "Boeing 737-800",
-        "airline": "United Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "Late",
-        "scheduledDepartureGMT": 1708698443,
-        "scheduledArrivalGMT": 1708705609,
-        "arrivalGMT": 1708706377
-    },
-    {
-        "flight": "AF4505",
-        "aircraft": "Airbus A321",
-        "airline": "Lufthansa",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "Late",
-        "scheduledDepartureGMT": 1708700722,
-        "scheduledArrivalGMT": 1708704959,
-        "arrivalGMT": 1708705635
-    },
-    {
-        "flight": "AF4602",
-        "aircraft": "Airbus A350-900",
-        "airline": "Lufthansa",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "Late",
-        "scheduledDepartureGMT": 1708694104,
-        "scheduledArrivalGMT": 1708703949,
-        "arrivalGMT": 1708706793
-    },
-    {
-        "flight": "AF8491",
-        "aircraft": "Airbus A350-900",
-        "airline": "United Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "Canceled",
-        "scheduledDepartureGMT": 1708694112,
-        "scheduledArrivalGMT": 1708704532,
-        "arrivalGMT": -1
-    },
-    {
-        "flight": "AF3790",
-        "aircraft": "Airbus A380-800",
-        "airline": "United Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "Canceled",
-        "scheduledDepartureGMT": 1708696276,
-        "scheduledArrivalGMT": 1708705668,
-        "arrivalGMT": -1
-    },
-    {
-        "flight": "AF1288",
-        "aircraft": "Boeing 737-800",
-        "airline": "Air France",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "Canceled",
-        "scheduledDepartureGMT": 1708698329,
-        "scheduledArrivalGMT": 1708706152,
-        "arrivalGMT": -1
-    },
-    {
-        "flight": "AF4028",
-        "aircraft": "Airbus A320-214",
-        "airline": "Qatar Airways",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "Late",
-        "scheduledDepartureGMT": 1708700111,
-        "scheduledArrivalGMT": 1708705103,
-        "arrivalGMT": 1708707467
-    },
-    {
-        "flight": "AF4864",
-        "aircraft": "Boeing 737 MAX 8",
-        "airline": "American Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "Canceled",
-        "scheduledDepartureGMT": 1708695425,
-        "scheduledArrivalGMT": 1708706912,
-        "arrivalGMT": -1
-    },
-    {
-        "flight": "AF6244",
-        "aircraft": "Boeing 737 MAX 8",
-        "airline": "Delta Air Lines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "Late",
-        "scheduledDepartureGMT": 1708700956,
-        "scheduledArrivalGMT": 1708706568,
-        "arrivalGMT": 1708707284
-    },
-    {
-        "flight": "AF9027",
-        "aircraft": "Boeing 777-300ER",
-        "airline": "American Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "Canceled",
-        "scheduledDepartureGMT": 1708695018,
-        "scheduledArrivalGMT": 1708705652,
-        "arrivalGMT": -1
-    },
-    {
-        "flight": "AF4641",
-        "aircraft": "Boeing 737-800",
-        "airline": "United Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708699760,
-        "scheduledArrivalGMT": 1708704078,
-        "arrivalGMT": 1708704078
-    },
-    {
-        "flight": "AF8012",
-        "aircraft": "Boeing 777-300ER",
-        "airline": "Air France",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708700259,
-        "scheduledArrivalGMT": 1708706671,
-        "arrivalGMT": 1708706671
-    },
-    {
-        "flight": "AF1317",
-        "aircraft": "Airbus A320-214",
-        "airline": "Air France",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708695583,
-        "scheduledArrivalGMT": 1708702553,
-        "arrivalGMT": 1708702553
-    },
-    {
-        "flight": "AF8023",
-        "aircraft": "Boeing 787-9",
-        "airline": "Qatar Airways",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708695085,
-        "scheduledArrivalGMT": 1708701497,
-        "arrivalGMT": 1708701497
-    },
-    {
-        "flight": "AF3700",
-        "aircraft": "Airbus A380-800",
-        "airline": "Delta Air Lines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708694573,
-        "scheduledArrivalGMT": 1708698714,
-        "arrivalGMT": 1708698714
-    },
-    {
-        "flight": "AF1096",
-        "aircraft": "Airbus A350-900",
-        "airline": "Qatar Airways",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708697309,
-        "scheduledArrivalGMT": 1708703517,
-        "arrivalGMT": 1708703517
-    },
-    {
-        "flight": "AF5552",
-        "aircraft": "Boeing 787-9",
-        "airline": "British Airways",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708697050,
-        "scheduledArrivalGMT": 1708701503,
-        "arrivalGMT": 1708701503
-    },
-    {
-        "flight": "AF8339",
-        "aircraft": "Boeing 737 MAX 8",
-        "airline": "Qatar Airways",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708694200,
-        "scheduledArrivalGMT": 1708701363,
-        "arrivalGMT": 1708701363
-    },
-    {
-        "flight": "AF4593",
-        "aircraft": "Boeing 737 MAX 8",
-        "airline": "British Airways",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "Late",
-        "scheduledDepartureGMT": 1708696268,
-        "scheduledArrivalGMT": 1708701858,
-        "arrivalGMT": 1708704096
-    },
-    {
-        "flight": "AF1935",
+        "flight": "AA214",
         "aircraft": "Boeing 777-300ER",
         "airline": "Emirates",
-        "origin": "Algiers Houari Boumediene Airport",
+        "origin": "Miami International Airport, Miami",
         "status": "On Time",
-        "scheduledDepartureGMT": 1708699413,
-        "scheduledArrivalGMT": 1708703574,
-        "arrivalGMT": 1708703574
+        "scheduledDepartureGMT": "2024-02-23 14:43:33",
+        "scheduledArrivalGMT": "2024-02-23 15:52:54",
+        "arrivalGMT": "2024-02-23 15:52:54"
     },
     {
-        "flight": "AF7574",
-        "aircraft": "Airbus A350-900",
-        "airline": "British Airways",
-        "origin": "Algiers Houari Boumediene Airport",
+        "flight": "QF942",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "Emirates",
+        "origin": "Melbourne Airport, Melbourne",
         "status": "On Time",
-        "scheduledDepartureGMT": 1708700101,
-        "scheduledArrivalGMT": 1708704195,
-        "arrivalGMT": 1708704195
+        "scheduledDepartureGMT": "2024-02-23 14:46:23",
+        "scheduledArrivalGMT": "2024-02-23 16:18:46",
+        "arrivalGMT": "2024-02-23 16:18:46"
     },
     {
-        "flight": "AF8092",
+        "flight": "AA177",
         "aircraft": "Airbus A350-900",
         "airline": "Qatar Airways",
-        "origin": "Algiers Houari Boumediene Airport",
+        "origin": "Dallas/Fort Worth International Airport, Dallas",
         "status": "On Time",
-        "scheduledDepartureGMT": 1708700385,
-        "scheduledArrivalGMT": 1708706736,
-        "arrivalGMT": 1708706736
+        "scheduledDepartureGMT": "2024-02-23 14:59:45",
+        "scheduledArrivalGMT": "2024-02-23 16:45:36",
+        "arrivalGMT": "2024-02-23 16:45:36"
     },
     {
-        "flight": "AF3468",
-        "aircraft": "Boeing 737-800",
-        "airline": "Air France",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708694644,
-        "scheduledArrivalGMT": 1708700898,
-        "arrivalGMT": 1708700898
-    },
-    {
-        "flight": "AF1832",
-        "aircraft": "Boeing 737 MAX 8",
-        "airline": "American Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "Late",
-        "scheduledDepartureGMT": 1708695391,
-        "scheduledArrivalGMT": 1708701593,
-        "arrivalGMT": 1708703755
-    },
-    {
-        "flight": "AF3357",
-        "aircraft": "Boeing 737 MAX 8",
-        "airline": "Air France",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708697805,
-        "scheduledArrivalGMT": 1708702264,
-        "arrivalGMT": 1708702264
-    },
-    {
-        "flight": "AF6101",
-        "aircraft": "Boeing 737 MAX 8",
-        "airline": "United Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708696387,
-        "scheduledArrivalGMT": 1708701582,
-        "arrivalGMT": 1708701582
-    },
-    {
-        "flight": "AF3399",
-        "aircraft": "Airbus A320-214",
-        "airline": "Lufthansa",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708696317,
-        "scheduledArrivalGMT": 1708701231,
-        "arrivalGMT": 1708701231
-    },
-    {
-        "flight": "AF1864",
-        "aircraft": "Airbus A321",
-        "airline": "Delta Air Lines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708698762,
-        "scheduledArrivalGMT": 1708705950,
-        "arrivalGMT": 1708705950
-    },
-    {
-        "flight": "AF6752",
-        "aircraft": "Airbus A380-800",
-        "airline": "Delta Air Lines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708699702,
-        "scheduledArrivalGMT": 1708706562,
-        "arrivalGMT": 1708706562
-    },
-    {
-        "flight": "AF5708",
-        "aircraft": "Boeing 777-300ER",
-        "airline": "Delta Air Lines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708695193,
-        "scheduledArrivalGMT": 1708701399,
-        "arrivalGMT": 1708701399
-    },
-    {
-        "flight": "AF4289",
-        "aircraft": "Airbus A320-214",
-        "airline": "Emirates",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708694297,
-        "scheduledArrivalGMT": 1708697947,
-        "arrivalGMT": 1708697947
-    },
-    {
-        "flight": "AF9569",
-        "aircraft": "Boeing 737 MAX 8",
-        "airline": "Air France",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708695951,
-        "scheduledArrivalGMT": 1708702827,
-        "arrivalGMT": 1708702827
-    },
-    {
-        "flight": "AF3949",
-        "aircraft": "Boeing 777-300ER",
-        "airline": "United Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708698129,
-        "scheduledArrivalGMT": 1708704735,
-        "arrivalGMT": 1708704735
-    },
-    {
-        "flight": "AF8856",
-        "aircraft": "Airbus A321",
-        "airline": "Emirates",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708697501,
-        "scheduledArrivalGMT": 1708702355,
-        "arrivalGMT": 1708702355
-    },
-    {
-        "flight": "AF1194",
-        "aircraft": "Boeing 737 MAX 8",
-        "airline": "American Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708700195,
-        "scheduledArrivalGMT": 1708705049,
-        "arrivalGMT": 1708705049
-    },
-    {
-        "flight": "AF2835",
-        "aircraft": "Airbus A380-800",
-        "airline": "United Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708696142,
-        "scheduledArrivalGMT": 1708701235,
-        "arrivalGMT": 1708701235
-    },
-    {
-        "flight": "AF9312",
+        "flight": "CA147",
         "aircraft": "Boeing 787-9",
         "airline": "Lufthansa",
-        "origin": "Algiers Houari Boumediene Airport",
+        "origin": "Shanghai Pudong International Airport, Shanghai",
         "status": "On Time",
-        "scheduledDepartureGMT": 1708700935,
-        "scheduledArrivalGMT": 1708705408,
-        "arrivalGMT": 1708705408
+        "scheduledDepartureGMT": "2024-02-23 15:08:55",
+        "scheduledArrivalGMT": "2024-02-23 16:23:28",
+        "arrivalGMT": "2024-02-23 16:23:28"
     },
     {
-        "flight": "AF3768",
-        "aircraft": "Boeing 737-800",
+        "flight": "KL847",
+        "aircraft": "Airbus A321",
+        "airline": "Delta Air Lines",
+        "origin": "Kuala Lumpur International Airport, Kuala Lumpur",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 14:32:42",
+        "scheduledArrivalGMT": "2024-02-23 16:32:30",
+        "arrivalGMT": "2024-02-23 16:32:30"
+    },
+    {
+        "flight": "UA903",
+        "aircraft": "Airbus A320-214",
         "airline": "Emirates",
-        "origin": "Algiers Houari Boumediene Airport",
+        "origin": "San Francisco International Airport, San Francisco",
         "status": "On Time",
-        "scheduledDepartureGMT": 1708698343,
-        "scheduledArrivalGMT": 1708702263,
-        "arrivalGMT": 1708702263
+        "scheduledDepartureGMT": "2024-02-23 13:18:17",
+        "scheduledArrivalGMT": "2024-02-23 14:19:07",
+        "arrivalGMT": "2024-02-23 14:19:07"
     },
     {
-        "flight": "AF8793",
+        "flight": "LA714",
+        "aircraft": "Airbus A320-214",
+        "airline": "Qatar Airways",
+        "origin": "Los Angeles International Airport, Los Angeles",
+        "status": "Late",
+        "scheduledDepartureGMT": "2024-02-23 14:55:11",
+        "scheduledArrivalGMT": "2024-02-23 16:18:23",
+        "arrivalGMT": "2024-02-23 16:57:47"
+    },
+    {
+        "flight": "SQ618",
         "aircraft": "Airbus A321",
         "airline": "American Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
+        "origin": "Jakarta Soekarno-Hatta International Airport, Jakarta",
         "status": "On Time",
-        "scheduledDepartureGMT": 1708699131,
-        "scheduledArrivalGMT": 1708704114,
-        "arrivalGMT": 1708704114
+        "scheduledDepartureGMT": "2024-02-23 14:38:51",
+        "scheduledArrivalGMT": "2024-02-23 16:01:54",
+        "arrivalGMT": "2024-02-23 16:01:54"
     },
     {
-        "flight": "AF4222",
-        "aircraft": "Airbus A321",
-        "airline": "Delta Air Lines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "Late",
-        "scheduledDepartureGMT": 1708699475,
-        "scheduledArrivalGMT": 1708705397,
-        "arrivalGMT": 1708705880
-    },
-    {
-        "flight": "AF9850",
-        "aircraft": "Airbus A350-900",
-        "airline": "Emirates",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708699214,
-        "scheduledArrivalGMT": 1708705546,
-        "arrivalGMT": 1708705546
-    },
-    {
-        "flight": "AF5737",
+        "flight": "BA763",
         "aircraft": "Boeing 737-800",
-        "airline": "Delta Air Lines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708696775,
-        "scheduledArrivalGMT": 1708703713,
-        "arrivalGMT": 1708703713
+        "airline": "Air France",
+        "origin": "London Heathrow Airport, London",
+        "status": "Canceled",
+        "scheduledDepartureGMT": "2024-02-23 14:25:29",
+        "scheduledArrivalGMT": "2024-02-23 16:35:52",
+        "arrivalGMT": "CANCELED"
     },
     {
-        "flight": "AF9395",
+        "flight": "ET702",
         "aircraft": "Boeing 737 MAX 8",
         "airline": "British Airways",
-        "origin": "Algiers Houari Boumediene Airport",
+        "origin": "Addis Ababa Bole International Airport, Addis Ababa",
         "status": "On Time",
-        "scheduledDepartureGMT": 1708700687,
-        "scheduledArrivalGMT": 1708705553,
-        "arrivalGMT": 1708705553
+        "scheduledDepartureGMT": "2024-02-23 15:04:47",
+        "scheduledArrivalGMT": "2024-02-23 16:25:53",
+        "arrivalGMT": "2024-02-23 16:25:53"
     },
     {
-        "flight": "AF8803",
-        "aircraft": "Boeing 737-800",
-        "airline": "Delta Air Lines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "On Time",
-        "scheduledDepartureGMT": 1708698206,
-        "scheduledArrivalGMT": 1708703576,
-        "arrivalGMT": 1708703576
-    },
-    {
-        "flight": "AF6955",
-        "aircraft": "Boeing 737-800",
+        "flight": "QR107",
+        "aircraft": "Airbus A380-800",
         "airline": "United Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
+        "origin": "Doha International Airport, Doha",
         "status": "On Time",
-        "scheduledDepartureGMT": 1708699873,
-        "scheduledArrivalGMT": 1708705752,
-        "arrivalGMT": 1708705752
+        "scheduledDepartureGMT": "2024-02-23 13:49:02",
+        "scheduledArrivalGMT": "2024-02-23 15:13:55",
+        "arrivalGMT": "2024-02-23 15:13:55"
     },
     {
-        "flight": "AF6774",
-        "aircraft": "Boeing 787-9",
-        "airline": "American Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
+        "flight": "LH724",
+        "aircraft": "Airbus A320-214",
+        "airline": "Air France",
+        "origin": "Munich Airport, Munich",
         "status": "On Time",
-        "scheduledDepartureGMT": 1708699474,
-        "scheduledArrivalGMT": 1708703764,
-        "arrivalGMT": 1708703764
+        "scheduledDepartureGMT": "2024-02-23 13:39:43",
+        "scheduledArrivalGMT": "2024-02-23 15:35:53",
+        "arrivalGMT": "2024-02-23 15:35:53"
     },
     {
-        "flight": "AF5038",
-        "aircraft": "Boeing 737-800",
-        "airline": "Delta Air Lines",
-        "origin": "Algiers Houari Boumediene Airport",
-        "status": "Late",
-        "scheduledDepartureGMT": 1708699070,
-        "scheduledArrivalGMT": 1708702923,
-        "arrivalGMT": 1708704040
-    },
-    {
-        "flight": "AF8204",
-        "aircraft": "Airbus A321",
-        "airline": "United Airlines",
-        "origin": "Algiers Houari Boumediene Airport",
+        "flight": "CZ328",
+        "aircraft": "Boeing 777-300ER",
+        "airline": "Air France",
+        "origin": "Beijing Capital International Airport, Beijing",
         "status": "On Time",
-        "scheduledDepartureGMT": 1708696931,
-        "scheduledArrivalGMT": 1708702591,
-        "arrivalGMT": 1708702591
+        "scheduledDepartureGMT": "2024-02-23 14:57:39",
+        "scheduledArrivalGMT": "2024-02-23 16:44:31",
+        "arrivalGMT": "2024-02-23 16:44:31"
     },
     {
-        "flight": "AF9937",
+        "flight": "KL589",
         "aircraft": "Boeing 737 MAX 8",
-        "airline": "Emirates",
-        "origin": "Algiers Houari Boumediene Airport",
+        "airline": "Air France",
+        "origin": "Amsterdam Airport Schiphol, Amsterdam",
         "status": "On Time",
-        "scheduledDepartureGMT": 1708699583,
-        "scheduledArrivalGMT": 1708705126,
-        "arrivalGMT": 1708705126
+        "scheduledDepartureGMT": "2024-02-23 13:45:51",
+        "scheduledArrivalGMT": "2024-02-23 15:40:27",
+        "arrivalGMT": "2024-02-23 15:40:27"
     },
     {
-        "flight": "AF7196",
+        "flight": "PR102",
+        "aircraft": "Boeing 777-300ER",
+        "airline": "United Airlines",
+        "origin": "Ninoy Aquino International Airport, Manila",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 14:22:09",
+        "scheduledArrivalGMT": "2024-02-23 16:12:15",
+        "arrivalGMT": "2024-02-23 16:12:15"
+    },
+    {
+        "flight": "JL742",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "Qatar Airways",
+        "origin": "Tokyo Haneda Airport, Tokyo",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 13:16:40",
+        "scheduledArrivalGMT": "2024-02-23 15:16:03",
+        "arrivalGMT": "2024-02-23 15:16:03"
+    },
+    {
+        "flight": "QF111",
+        "aircraft": "Airbus A350-900",
+        "airline": "Qatar Airways",
+        "origin": "Sydney Kingsford Smith Airport, Sydney",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 14:08:29",
+        "scheduledArrivalGMT": "2024-02-23 15:51:57",
+        "arrivalGMT": "2024-02-23 15:51:57"
+    },
+    {
+        "flight": "IB348",
         "aircraft": "Boeing 777-300ER",
         "airline": "Delta Air Lines",
-        "origin": "Algiers Houari Boumediene Airport",
+        "origin": "Adolfo Suarez Madrid-Barajas Airport, Madrid",
         "status": "Late",
-        "scheduledDepartureGMT": 1708696202,
-        "scheduledArrivalGMT": 1708700445,
-        "arrivalGMT": 1708702527
+        "scheduledDepartureGMT": "2024-02-23 13:50:02",
+        "scheduledArrivalGMT": "2024-02-23 15:00:45",
+        "arrivalGMT": "2024-02-23 15:35:27"
+    },
+    {
+        "flight": "PR308",
+        "aircraft": "Boeing 737-800",
+        "airline": "United Airlines",
+        "origin": "Manila Ninoy Aquino International Airport, Manila",
+        "status": "Late",
+        "scheduledDepartureGMT": "2024-02-23 14:49:20",
+        "scheduledArrivalGMT": "2024-02-23 16:01:18",
+        "arrivalGMT": "2024-02-23 16:10:18"
+    },
+    {
+        "flight": "UA821",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "United Airlines",
+        "origin": "Newark Liberty International Airport, Newark",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 13:53:07",
+        "scheduledArrivalGMT": "2024-02-23 15:19:42",
+        "arrivalGMT": "2024-02-23 15:19:42"
+    },
+    {
+        "flight": "AF271",
+        "aircraft": "Airbus A350-900",
+        "airline": "British Airways",
+        "origin": "Leonardo da Vinci-Fiumicino Airport, Rome",
+        "status": "Late",
+        "scheduledDepartureGMT": "2024-02-23 14:55:01",
+        "scheduledArrivalGMT": "2024-02-23 16:03:15",
+        "arrivalGMT": "2024-02-23 16:56:15"
+    },
+    {
+        "flight": "JL301",
+        "aircraft": "Boeing 777-300ER",
+        "airline": "Delta Air Lines",
+        "origin": "Narita International Airport, Tokyo",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 13:33:13",
+        "scheduledArrivalGMT": "2024-02-23 15:16:39",
+        "arrivalGMT": "2024-02-23 15:16:39"
+    },
+    {
+        "flight": "KL274",
+        "aircraft": "Boeing 737-800",
+        "airline": "Delta Air Lines",
+        "origin": "Kuala Lumpur International Airport, Kuala Lumpur",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 13:59:35",
+        "scheduledArrivalGMT": "2024-02-23 15:55:13",
+        "arrivalGMT": "2024-02-23 15:55:13"
+    },
+    {
+        "flight": "MX730",
+        "aircraft": "Boeing 777-300ER",
+        "airline": "American Airlines",
+        "origin": "Mexico City International Airport, Mexico City",
+        "status": "Canceled",
+        "scheduledDepartureGMT": "2024-02-23 13:30:18",
+        "scheduledArrivalGMT": "2024-02-23 16:27:32",
+        "arrivalGMT": "CANCELED"
+    },
+    {
+        "flight": "NZ214",
+        "aircraft": "Boeing 787-9",
+        "airline": "American Airlines",
+        "origin": "Auckland Airport, Auckland",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 14:44:34",
+        "scheduledArrivalGMT": "2024-02-23 15:56:04",
+        "arrivalGMT": "2024-02-23 15:56:04"
+    },
+    {
+        "flight": "EY862",
+        "aircraft": "Airbus A320-214",
+        "airline": "Lufthansa",
+        "origin": "Abu Dhabi International Airport, Abu Dhabi",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 13:51:57",
+        "scheduledArrivalGMT": "2024-02-23 15:13:51",
+        "arrivalGMT": "2024-02-23 15:13:51"
+    },
+    {
+        "flight": "AKL642",
+        "aircraft": "Boeing 737-800",
+        "airline": "United Airlines",
+        "origin": "Wellington International Airport, Wellington",
+        "status": "Late",
+        "scheduledDepartureGMT": "2024-02-23 14:51:13",
+        "scheduledArrivalGMT": "2024-02-23 16:29:12",
+        "arrivalGMT": "2024-02-23 16:47:12"
+    },
+    {
+        "flight": "RY317",
+        "aircraft": "Boeing 737-800",
+        "airline": "Delta Air Lines",
+        "origin": "Dublin Airport, Dublin",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 14:23:26",
+        "scheduledArrivalGMT": "2024-02-23 15:52:56",
+        "arrivalGMT": "2024-02-23 15:52:56"
+    },
+    {
+        "flight": "AC784",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "American Airlines",
+        "origin": "Toronto Pearson International Airport, Toronto",
+        "status": "Late",
+        "scheduledDepartureGMT": "2024-02-23 13:36:31",
+        "scheduledArrivalGMT": "2024-02-23 15:19:53",
+        "arrivalGMT": "2024-02-23 15:55:55"
+    },
+    {
+        "flight": "EK182",
+        "aircraft": "Boeing 737-800",
+        "airline": "Air France",
+        "origin": "Dubai International Airport, Dubai",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 13:24:04",
+        "scheduledArrivalGMT": "2024-02-23 15:08:18",
+        "arrivalGMT": "2024-02-23 15:08:18"
+    },
+    {
+        "flight": "CA981",
+        "aircraft": "Airbus A321",
+        "airline": "United Airlines",
+        "origin": "Guangzhou Baiyun International Airport, Guangzhou",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 14:02:11",
+        "scheduledArrivalGMT": "2024-02-23 15:36:31",
+        "arrivalGMT": "2024-02-23 15:36:31"
+    },
+    {
+        "flight": "AC329",
+        "aircraft": "Boeing 737-800",
+        "airline": "Delta Air Lines",
+        "origin": "Montreal-Pierre Elliott Trudeau International Airport, Montreal",
+        "status": "Late",
+        "scheduledDepartureGMT": "2024-02-23 14:37:50",
+        "scheduledArrivalGMT": "2024-02-23 15:42:03",
+        "arrivalGMT": "2024-02-23 16:00:40"
+    },
+    {
+        "flight": "EK521",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "American Airlines",
+        "origin": "Dubai International Airport, Dubai",
+        "status": "Canceled",
+        "scheduledDepartureGMT": "2024-02-23 13:37:05",
+        "scheduledArrivalGMT": "2024-02-23 16:48:32",
+        "arrivalGMT": "CANCELED"
+    },
+    {
+        "flight": "CZ392",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "Delta Air Lines",
+        "origin": "Shenzhen Bao'an International Airport, Shenzhen",
+        "status": "Late",
+        "scheduledDepartureGMT": "2024-02-23 15:09:16",
+        "scheduledArrivalGMT": "2024-02-23 16:42:48",
+        "arrivalGMT": "2024-02-23 16:54:44"
+    },
+    {
+        "flight": "KE784",
+        "aircraft": "Airbus A321",
+        "airline": "Delta Air Lines",
+        "origin": "Jomo Kenyatta International Airport, Nairobi",
+        "status": "Late",
+        "scheduledDepartureGMT": "2024-02-23 14:44:35",
+        "scheduledArrivalGMT": "2024-02-23 16:23:17",
+        "arrivalGMT": "2024-02-23 16:31:20"
+    },
+    {
+        "flight": "SQ231",
+        "aircraft": "Boeing 787-9",
+        "airline": "British Airways",
+        "origin": "Singapore Changi Airport, Singapore",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 14:04:10",
+        "scheduledArrivalGMT": "2024-02-23 15:18:23",
+        "arrivalGMT": "2024-02-23 15:18:23"
+    },
+    {
+        "flight": "AKL117",
+        "aircraft": "Airbus A350-900",
+        "airline": "United Airlines",
+        "origin": "Auckland Airport, Auckland",
+        "status": "Canceled",
+        "scheduledDepartureGMT": "2024-02-23 13:15:12",
+        "scheduledArrivalGMT": "2024-02-23 16:08:52",
+        "arrivalGMT": "CANCELED"
+    },
+    {
+        "flight": "4U152",
+        "aircraft": "Boeing 787-9",
+        "airline": "Qatar Airways",
+        "origin": "Indira Gandhi International Airport, Delhi",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 13:31:25",
+        "scheduledArrivalGMT": "2024-02-23 15:18:17",
+        "arrivalGMT": "2024-02-23 15:18:17"
+    },
+    {
+        "flight": "LA415",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "Air France",
+        "origin": "LAX, Los Angeles",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 14:16:45",
+        "scheduledArrivalGMT": "2024-02-23 15:31:04",
+        "arrivalGMT": "2024-02-23 15:31:04"
+    },
+    {
+        "flight": "JJ341",
+        "aircraft": "Boeing 737-800",
+        "airline": "Emirates",
+        "origin": "Sao Paulo-Guarulhos International Airport, Sao Paulo",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 14:25:43",
+        "scheduledArrivalGMT": "2024-02-23 15:31:03",
+        "arrivalGMT": "2024-02-23 15:31:03"
+    },
+    {
+        "flight": "EY732",
+        "aircraft": "Airbus A380-800",
+        "airline": "United Airlines",
+        "origin": "Seychelles International Airport, Mahe",
+        "status": "Canceled",
+        "scheduledDepartureGMT": "2024-02-23 13:51:16",
+        "scheduledArrivalGMT": "2024-02-23 16:27:48",
+        "arrivalGMT": "CANCELED"
+    },
+    {
+        "flight": "LH430",
+        "aircraft": "Airbus A321",
+        "airline": "Emirates",
+        "origin": "Frankfurt Airport, Frankfurt",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 14:11:41",
+        "scheduledArrivalGMT": "2024-02-23 15:32:35",
+        "arrivalGMT": "2024-02-23 15:32:35"
+    },
+    {
+        "flight": "SQ129",
+        "aircraft": "Airbus A380-800",
+        "airline": "Delta Air Lines",
+        "origin": "Singapore Changi Airport, Singapore",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 13:22:53",
+        "scheduledArrivalGMT": "2024-02-23 14:31:54",
+        "arrivalGMT": "2024-02-23 14:31:54"
+    },
+    {
+        "flight": "AKL555",
+        "aircraft": "Airbus A350-900",
+        "airline": "Lufthansa",
+        "origin": "Queenstown Airport, Queenstown",
+        "status": "Late",
+        "scheduledDepartureGMT": "2024-02-23 13:15:04",
+        "scheduledArrivalGMT": "2024-02-23 16:00:09",
+        "arrivalGMT": "2024-02-23 16:46:33"
+    },
+    {
+        "flight": "TK193",
+        "aircraft": "Airbus A380-800",
+        "airline": "Delta Air Lines",
+        "origin": "Istanbul Airport, Istanbul",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 14:48:22",
+        "scheduledArrivalGMT": "2024-02-23 16:42:42",
+        "arrivalGMT": "2024-02-23 16:42:42"
+    },
+    {
+        "flight": "AKL321",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "British Airways",
+        "origin": "Dunedin Airport, Dunedin",
+        "status": "Late",
+        "scheduledDepartureGMT": "2024-02-23 13:51:08",
+        "scheduledArrivalGMT": "2024-02-23 15:24:18",
+        "arrivalGMT": "2024-02-23 16:01:36"
+    },
+    {
+        "flight": "SA263",
+        "aircraft": "Boeing 737 MAX 8",
+        "airline": "American Airlines",
+        "origin": "Jeddah King Abdulaziz International Airport, Jeddah",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 14:56:35",
+        "scheduledArrivalGMT": "2024-02-23 16:17:29",
+        "arrivalGMT": "2024-02-23 16:17:29"
+    },
+    {
+        "flight": "AKL987",
+        "aircraft": "Airbus A321",
+        "airline": "Lufthansa",
+        "origin": "Christchurch International Airport, Christchurch",
+        "status": "Late",
+        "scheduledDepartureGMT": "2024-02-23 15:05:22",
+        "scheduledArrivalGMT": "2024-02-23 16:15:59",
+        "arrivalGMT": "2024-02-23 16:27:15"
+    },
+    {
+        "flight": "UL823",
+        "aircraft": "Airbus A350-900",
+        "airline": "Emirates",
+        "origin": "Colombo Bandaranaike International Airport, Colombo",
+        "status": "On Time",
+        "scheduledDepartureGMT": "2024-02-23 14:40:14",
+        "scheduledArrivalGMT": "2024-02-23 16:25:46",
+        "arrivalGMT": "2024-02-23 16:25:46"
+    },
+    {
+        "flight": "FJ333",
+        "aircraft": "Boeing 737-800",
+        "airline": "United Airlines",
+        "origin": "Nadi International Airport, Nadi",
+        "status": "Late",
+        "scheduledDepartureGMT": "2024-02-23 14:27:23",
+        "scheduledArrivalGMT": "2024-02-23 16:26:49",
+        "arrivalGMT": "2024-02-23 16:39:37"
     }
 ]
